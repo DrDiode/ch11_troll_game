@@ -1,0 +1,57 @@
+/* Stylesheet for Trooll Game
+	Andrew J. Noest 1/8/2020
+*/
+
+body {
+	background-image: url('background.png');
+	background-size: 1920px 1080px;
+}
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	color: darkgreen;
+	font-size: 70px;
+	text-shadow: 2px 2px 3px black;
+}
+
+div#button {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 28px;
+	background-color: yellow;
+	width: 350px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px 0px;
+	transition: all 2s;
+}
+
+div#button:hover {
+	background-color: red;
+	color: white;
+	font-size: 33px;
+	sidth: 400px;
+}
+
+h2#result {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
+h2#death {
+	font-family: 'Press Start 2P', cursive;
+	color: yellow;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
